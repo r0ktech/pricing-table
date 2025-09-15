@@ -11,8 +11,8 @@
   margin-bottom: 2.5rem;
   font-size: 2.5rem;
   font-weight: 800;
-  letter-spacing: 2px;
-  color: #0078d4;
+  letter-spacing: 1px;
+  color: #fcef06;
   background: none;
   -webkit-background-clip: initial;
   background-clip: initial;
@@ -30,7 +30,6 @@
 .pricing-card {
   background: #fff;
   border-radius: 1.5rem;
-  box-shadow: 0 8px 32px rgba(0,120,212,0.10), 0 1.5px 8px rgba(0,198,162,0.08);
   padding: 2.5rem 2rem;
   flex: 1 1 250px;
   min-width: 250px;
@@ -41,47 +40,24 @@
   align-items: center;
   position: relative;
   backdrop-filter: blur(6px);
-  border: 1.5px solid #e0e7ff;
+  border: 1.5px solid #fcef06;
   overflow: hidden;
   z-index: 1;
 }
 
 .pricing-card:hover {
   transform: translateY(-12px) scale(1.04) rotate(-1deg);
-  box-shadow: 0 12px 36px rgba(0,120,212,0.18), 0 2px 12px rgba(0,198,162,0.12);
-  border: 2.5px solid #00c6a2;
+  border: 2.5px solid #fcef06;
   background: #f0f8ff;
-  box-shadow: 0 12px 36px rgba(0,120,212,0.18), 0 2px 12px rgba(0,198,162,0.12);
-  border: 2.5px solid #0078d4;
+  border: 2.5px solid #fcef06;
 }
 
-.popular {
-  border: 2.5px solid #0078d4;
-  box-shadow: 0 0 0 4px #e0e7ff;
-}
-
-.popular-badge {
-  position: absolute;
-  top: -1.3rem;
-  left: 50%;
-  transform: translateX(-50%);
-  background: #0078d4;
-  color: #fff;
-  color: #fff;
-  padding: 0.4rem 1.2rem;
-  border-radius: 1.2rem;
-  font-size: 1rem;
-  font-weight: 700;
-  box-shadow: 0 2px 12px rgba(0,120,212,0.12);
-  letter-spacing: 1px;
-  border: 2px solid #fff;
-}
 
 .tier-name {
   font-size: 1.4rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
-  color: #0078d4;
+  color: #fcef06;
   letter-spacing: 0.5px;
   text-shadow: none;
 }
@@ -110,7 +86,7 @@
 
 .tier-features li {
   padding: 0.5rem 0;
-  text-align: left;
+  text-align: center;
   font-size: 1rem;
   color: #222;
   font-weight: 400;
@@ -118,8 +94,8 @@
 }
 
 .tier-button {
-  background: #0078d4;
-  color: #fff;
+  background: #fcef06;
+  color: #000000;
   border: none;
   border-radius: 0.7rem;
   padding: 0.8rem 2rem;
@@ -127,14 +103,12 @@
   font-weight: 700;
   cursor: pointer;
   transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
-  box-shadow: 0 2px 8px rgba(0,120,212,0.10);
   margin-top: 1rem;
 }
 
 .tier-button:hover {
-  background: #0078d4;
-  color: #fff;
-  box-shadow: 0 4px 16px rgba(0,120,212,0.18);
+  background: #fcef06;
+  color: #000000;
   transform: scale(1.07);
 }
 
@@ -150,6 +124,5 @@
     min-width: 220px;
     padding: 2rem 1rem;
     border-radius: 1.2rem;
-    box-shadow: 0 4px 16px rgba(0,120,212,0.10);
   }
 }
